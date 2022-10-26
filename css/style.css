@@ -87,28 +87,57 @@ li{
 
 .sales{
     position: absolute;
-    height: 20px;
-    width: 40px;
-    background-color: red;
     color: white;
-    font-size: 15px;
     padding: 2px;
     left: 0;
-    bottom: 50px;
+    bottom: 100px;
     margin-left: 10px;
     display: flex;
     
-
 }
 
-.sostenibilità{
-    height: 20px;
+.discount{
+    background-color: red;
+    padding: 5px;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.sustenibility{
     background-color: green;
-    margin-left: 10px;
-    font-size: 15px;
-   
-
+    font-size: 13px;
+    padding: 5px;
 }
+
+.description{
+    margin-left: 10px;
+    
+}
+
+.grey{
+    color: grey;
+}
+
+.red{
+    color:red
+}
+
+.underline{
+    text-decoration: line-through;
+    color: grey;
+    margin-left: 10px;
+}
+
+.heart{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background-color: white;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+
 
 
 
