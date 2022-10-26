@@ -137,6 +137,37 @@ li{
     margin-right: 10px;
 }
 
+footer{
+    background-color: black;
+    min-height: 90px;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.text-white{
+    color: white;
+}
+
+.footer-list{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+
+.li-footer{
+    white-space: nowrap;
+    padding-left: 0;
+
+}
+
+footer{
+    margin-top: 50px;
+}
+
 
 
 
