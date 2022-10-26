@@ -3,16 +3,19 @@
     padding: 0;
     margin: 0;
 }
-
+/* header  */
 header{
     width: 100%;
     background-color: orangered;
-    height: 100px;
+    min-height: 70px;
+    
 }
 
 .container{
     width: 70%;
     margin: 0 auto;
+    display: flex;
+    padding-top: 15px;
    
 }
 
@@ -20,3 +23,44 @@ header{
     width: 100%;
     display: flex;
 }
+
+.col-25{
+    width: 20%;
+   
+
+
+}
+
+.col-50{
+    width: 80%;
+   
+}
+
+.list-sx, .list-dx{
+    display: flex;
+    list-style: none;
+    padding-top: 5px;
+    justify-content: center;
+    color: white;
+    
+}
+
+
+
+li{
+    padding: 0 5px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 15%;
+}
+/* fine header  */
+
+/* main  */
+
+
