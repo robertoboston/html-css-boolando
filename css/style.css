@@ -4,11 +4,17 @@
     margin: 0;
 }
 /* header  */
+
 header{
     width: 100%;
     background-color: orangered;
     min-height: 70px;
-    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+   
 }
 
 .container{
@@ -28,9 +34,8 @@ header{
 .col-25{
     width: 20%;
    
-
-
 }
+
 
 .col-50{
     width: 80%;
@@ -63,6 +68,10 @@ li{
 /* fine header  */
 
 /* main  */
+main{
+    margin-top: 150px;
+}
+
 
 .first-row, .second-row{
     display: flex;
