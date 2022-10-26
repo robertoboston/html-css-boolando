@@ -22,6 +22,7 @@ header{
 .row{
     width: 100%;
     display: flex;
+    
 }
 
 .col-25{
@@ -62,5 +63,52 @@ li{
 /* fine header  */
 
 /* main  */
+
+.first-row, .second-row{
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.first-row img, .second-row img{
+    height: 450px;
+    margin: 10px;
+    
+}
+
+.second-row{
+    margin-top: 50px;
+}
+
+.position-relative{
+    position: relative;
+
+}
+
+.sales{
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    padding: 2px;
+    left: 0;
+    bottom: 50px;
+    margin-left: 10px;
+    display: flex;
+    
+
+}
+
+.sostenibilità{
+    height: 20px;
+    background-color: green;
+    margin-left: 10px;
+    font-size: 15px;
+   
+
+}
+
 
 
